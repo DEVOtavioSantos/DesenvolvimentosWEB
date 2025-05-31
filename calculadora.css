@@ -3,6 +3,7 @@ table{
     border-radius: 20px;
     padding: 10px;
     box-shadow: 5px 4px 4px black;
+    background-color: bisque;
     
 }
 
@@ -29,3 +30,9 @@ table{
     
 }
 
+
+.tela{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
