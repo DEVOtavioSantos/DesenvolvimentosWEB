@@ -9,7 +9,7 @@ function calcular()
     {
         document.getElementById('result').value = eval(document.getElementById('result').value);
     } catch {
-        document.getElementById('result').value = 'Expressão errada!!'
+        document.getElementById('result').value = 'Expressão invalida!!'
     }
 }
 
