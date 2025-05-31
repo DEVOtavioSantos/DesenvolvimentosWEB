@@ -26,5 +26,6 @@ table{
 .btnadd:active{
     box-shadow: 5px 4px 4px black;
     transition: 0s all;
-    padding: 60x;
+    
 }
+
