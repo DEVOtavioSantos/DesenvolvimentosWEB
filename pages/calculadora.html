@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/generic.css">
+    <link rel="stylesheet" href="/styles/calculadora.css">
+    <script src="/javasscript/calculadora.js"></script>
+</head>
+<body>
+    <a  href="/index.html">voltar a página principal</a>
+    <div class="tabela">
+        <table>
+        <tr>
+            <thead>
+                <th colspan="4">Calculadora</th>
+            </thead>
+        </tr>
+        <tr>
+            <th colspan="4"><input type="text" id="result" disabled></th>
+        </tr>
+        <tr>
+            <th><button  class="btnadd" onclick="limpar()">C</button></th>
+            <th><button class="btnadd" onclick="append('/')">/</button></th>
+            <th><button class="btnadd" onclick="porcentagem()">%</button></th>
+            <th><button class="btnadd" onclick="append('')"></button></th>
+        </tr>
+        <tr>
+            <th><button class="btnadd" onclick="append('7')">7</button></th>
+            <th><button class="btnadd" onclick="append('8')">8</button></th>
+            <th><button class="btnadd" onclick="9">9</button></th>
+            <th><button class="btnadd" onclick="append('*')">X</button></th>
+        </tr>
+        <tr>
+            <th><button class="btnadd" onclick="append('4')">4</button></th>
+            <th><button class="btnadd" onclick="append('5')">5</button></th>
+            <th><button class="btnadd" onclick="append(6)">6</button></th>
+            <th><button class="btnadd" onclick="append('-')">-</button></th>
+        </tr>
+        <tr>
+            <th><button class="btnadd"onclick="append('1')">1</button></th>
+            <th><button class="btnadd" onclick="append('2')">2</button></th>
+            <th><button class="btnadd"onclick="append('3')">3</button></th>
+            <th><button class="btnadd" onclick="append('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button class="btnadd" onclick="append('0')">0</button></th>
+            <th><button class="btnadd"onclick="append('.')">,</button></th>
+            <th><button class="btnadd"onclick="calcular()">=</button></th>
+        </tr>
+
+        </div>
+
+        </table>
+        <div>
+            <footer style="display: flex; flex-direction: column;">
+        <a href="https://github.com/DEVOtavioSantos/DesenvolvimentosWEB">Códigos Fonte</a>
+         </footer>
+        </div>
+        
+</body>
+    
+    
+    
+</html>
