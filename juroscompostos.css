@@ -1,0 +1,50 @@
+.campo{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 4px black;
+    width: 520px;
+
+}
+
+.campo input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.campor{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 4px 4px black;
+    width: 260px;
+    height: 150px;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #556b2f ;
+    color: white;
+    box-shadow: 5px 4px 4px black
+
+}
+
+.btn:active{
+    padding: 6px;
+}
+

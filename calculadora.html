@@ -10,8 +10,8 @@
 </head>
 <body>
     <a  href="index.html">voltar a página principal</a>
-    <div class="tabela">
-        <table>
+    <div class="tabela" >
+        <table id="tabela">
         <tr>
             <thead>
                 <th colspan="4">Calculadora</th>
@@ -49,10 +49,19 @@
             <th><button class="btnadd"onclick="append('.')">,</button></th>
             <th><button class="btnadd"onclick="calcular()">=</button></th>
         </tr>
-
+         </table>
+         <div class="estilo">
+            <label for="">CorDeFundo da Calculadora:</label>
+            <input type="color" name="" id="CorFundo"  value="#ffffff" onchange="alterarCores()">
+            <label for="">Cor do fundo do site:</label>
+            <input type="color" id="CorBtns" onchange="alterarCores()"></input>
+            
         </div>
+        </div>
+        
 
-        </table>
+       
+        
       
     
     
