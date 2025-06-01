@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid black;
+    margin-top: 200px;
+    padding: 25px;
+    border-radius: 20px;
+
+}
+.card:hover{
+    padding: 30px;
+    transition: 0.5s all;
+    box-shadow: 5px 4px 4px black;
+    
+}
+
+
+
+.card input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 5px;
+}
+
+
+
+.btn{
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px soldi black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.btn:active{
+    padding: 10px;
+}
+
+.message_error{
+    visibility: hidden;
+    color: red;
+}
+
+.form-contant.error input{
+    visibility: visible;
+}

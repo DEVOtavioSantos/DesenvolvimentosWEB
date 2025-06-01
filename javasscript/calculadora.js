@@ -41,4 +41,5 @@ function alterarCores()
     
     const CordeFundo = document.getElementById('CorBtns').value;
     document.body.style.backgroundColor = CordeFundo;
+    
 }
